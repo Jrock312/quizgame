@@ -7,13 +7,15 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <nav class="navbar navbar-light bg-dark">
+        <nav class="navbar navbar-dark bg-primary">
         <a class="navbar-brand" href="#!">"POP"-quiz</a>
       </nav>
       
-      <div class="container-fluid">
+      
+    <div class="container">
+        <div class="d-flex justify-content-center">
         <div id="quiz">
-            <hr style="margin-bottom: 20px">
+            <hr>
 
             <p id="question"></p>
 
@@ -24,10 +26,8 @@
                 <button id="btn3"class="btn btn-primary"><span id="choice3"></span></button>
             </div>
 
-            <hr style="margin-top: 50px">
-            <footer>
-                <p id="progress">Question x of y</p>
-            </footer>
+            <hr>
+        </div>    
         </div>
     </div>
 
@@ -35,4 +35,11 @@
 <script src="script.js"></script>
 
 </body>
+<footer>
+    <nav class="navbar fixed-bottom navbar-dark bg-primary">
+        <a class="navbar-brand" href="#!">Joel Guevarra</a>
+        <p id="progress">Question x of y</p>
+      </nav>
+      
+</footer>
 </html>

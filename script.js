@@ -1,3 +1,11 @@
+var play = confirm("Do you want to play 'POP-Quiz?");
+if (play) {
+    alert("ok time to get started");
+  }
+  else {
+    alert("You get to play anyway");
+  }
+
 function Quiz(questions) {
     this.score = 0;
     this.questions = questions;
