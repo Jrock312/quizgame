@@ -19,6 +19,7 @@ Quiz.prototype.getQuestionIndex = function() {
 Quiz.prototype.guess = function(answer) {
     if(this.getQuestionIndex().isCorrectAnswer(answer)) {
         this.score++;
+        
     }
 
     this.questionIndex++;
@@ -90,7 +91,7 @@ var questions = [
     new Question("What is Luke Skywalkers Father's first name?", ["Anakin", "George","Chancelor", "Obi-Wan"], "Anakin"),
     new Question("Who is Naruto's Son?", ["Flash", "Boruto", "jr", "Trunks"], "Boruto"),
     new Question("Deadpool is based on what character", ["Donald Duck", "Deathstroke", "Batman"], "Deathstroke"),
-    new Question("1234", ["1", "2", "3","4"], "3"),
+    new Question("Who is the main protagonist in the legend of Zelda Series", ["Mario", "Ryu", "Link","Zelda"], "Link"),
     
 ];
 
